@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    display: inline-flex;
+}
+
+.container__colaborador {
+    margin-top: 2rem;
+    width: 16.37rem;
+}
+
+.container__colaborador .container__cabecalho {
+    border-radius: 0.8rem 0.8rem 0px 0px;
+    height: 5.5rem;
+}
+.container__colaborador img {
+    width: 7.5rem;
+    border-radius: 50%;
+    position: relative;
+    bottom: -35px;
+}
+
+.container__colaborador .container__rodape {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 0.8rem 0.8rem;
+    padding: 4rem 2rem 0.5rem 2rem;
+}
+
+.container__colaborador .container__rodape h4 {
+    font-family: "Montserrat", sans-serif;
+    color: #6278F7;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+
+.container__colaborador .container__rodape h5 {
+    margin-top: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #212121;
+    font-size: 1rem;
+}
